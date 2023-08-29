@@ -4,7 +4,9 @@ With the support of NSFC, we have established a collection of bug repositories a
 
 ## GrowingBugs
 
-This is a bug repository that keeps growing, called growingBugs. Notably, each bug in growingBugs is composed of a buggy version, a fixed version, a concise patch (bug-fixing changes only), and one or more triggering test cases. To date, growingBugs contains 1911 real-world bugs from open-source Java projects. 
+GrowingBugs is essentially an expanded version of the widely used Defects4J: It not only includes all defects in Defects4J, but also reuses its APIs to faciliate users to switch seamlessly from Defects4J to GrowingBugs. The key difference is that growingBugs levearages an automated approach to exclude bug-irrelevarange changes from bug-fixing commmits automatically whereas Defects4J requests human experts to accomplish the same task. Consequently, growingBugs can keep growing automatically even without human intervention. That is the reason why it is called "growingBugs". 
+
+Notably, each bug in growingBugs is composed of a buggy version, a fixed version, a concise patch (bug-fixing changes only), and one or more triggering test cases. To date, growingBugs contains 1911 real-world bugs from open-source Java projects. 
 
 GrowingBugs is publically available at https://github.com/liuhuigmail/GrowingBugRepository
 
