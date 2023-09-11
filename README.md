@@ -10,10 +10,10 @@ Notably, each bug in growingBugs is composed of a buggy version, a fixed version
 
 GrowingBugs is publically available at https://github.com/liuhuigmail/GrowingBugRepository
 
+## JLeaks
+
+JLeaks contains 1,094 resource leaks from 321 open-source projects on GitHub. It was built after multiple rounds of filtering and validation from more than 3,185 commits. Each case is well-labeled in detail, including the defect code, patches, and location, providing convenience for defect code analysis, automatic testing, and tool evaluation. To the best of our knowledge, JLeaks is the largest and most informative resource leak repository so far.
 
 
-
-
-
-
+JLeaks is publically available at https://github.com/BIT-SYS/BIT-DBench/tree/main/Java/JLeaks-2023
 
